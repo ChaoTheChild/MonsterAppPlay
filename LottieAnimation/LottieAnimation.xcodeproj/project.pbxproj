@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41567616818D65A64DDC5F2 /* Pods_LottieAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E784086427456FA32489E5 /* Pods_LottieAnimation.framework */; };
+		B23B12AE2192252A00C57EE2 /* Scene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B12AD2192252A00C57EE2 /* Scene4.swift */; };
+		B25C1F07218A74DC00C20DA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C1F06218A74DC00C20DA2 /* SecondViewController.swift */; };
+		B25C1F09218A774500C20DA2 /* Scene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C1F08218A774500C20DA2 /* Scene1.swift */; };
+		B25E08A7218CDD3300304576 /* Scene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E08A6218CDD3300304576 /* Scene2.swift */; };
+		B25E08C8218FEFDE00304576 /* Scene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E08C7218FEFDE00304576 /* Scene3.swift */; };
+		B269959621837AC200B40D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269959521837AC200B40D13 /* AppDelegate.swift */; };
+		B269959821837AC200B40D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269959721837AC200B40D13 /* ViewController.swift */; };
+		B269959B21837AC200B40D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B269959921837AC200B40D13 /* Main.storyboard */; };
+		B269959D21837AC300B40D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B269959C21837AC300B40D13 /* Assets.xcassets */; };
+		B26995A021837AC300B40D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B269959E21837AC300B40D13 /* LaunchScreen.storyboard */; };
+		B2AB8C38219929CD008C008F /* Scene6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8C37219929CD008C008F /* Scene6.swift */; };
+		B2AB8C57219FCA89008C008F /* scene1_floorlines_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C50219FCA89008C008F /* scene1_floorlines_v02.json */; };
+		B2AB8C58219FCA89008C008F /* scene1_character_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C51219FCA89008C008F /* scene1_character_v02.json */; };
+		B2AB8C59219FCA89008C008F /* scene1_skylines_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C52219FCA89008C008F /* scene1_skylines_v02.json */; };
+		B2AB8C5A219FCA89008C008F /* scene1_plants_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C53219FCA89008C008F /* scene1_plants_v02.json */; };
+		B2AB8C5B219FCA89008C008F /* scene1_expression_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C54219FCA89008C008F /* scene1_expression_v02.json */; };
+		B2AB8C5C219FCA89008C008F /* scene1_fire_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C55219FCA89008C008F /* scene1_fire_v02.json */; };
+		B2AB8C5D219FCA89008C008F /* scene1_base_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C56219FCA89008C008F /* scene1_base_v02.json */; };
+		B2AB8C65219FD264008C008F /* scene2_floorlines_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C5E219FD264008C008F /* scene2_floorlines_v02.json */; };
+		B2AB8C67219FD264008C008F /* scene2_triangles_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C60219FD264008C008F /* scene2_triangles_v02.json */; };
+		B2AB8C6B219FD264008C008F /* scene2_floor_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C64219FD264008C008F /* scene2_floor_v02.json */; };
+		B2AB8C8621A0833E008C008F /* scene3_bg_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8121A0833E008C008F /* scene3_bg_v02.json */; };
+		B2AB8C8721A0833E008C008F /* scene3_horsebody_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8221A0833E008C008F /* scene3_horsebody_v02.json */; };
+		B2AB8C8821A0833E008C008F /* scene3_horsehead_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8321A0833E008C008F /* scene3_horsehead_v02.json */; };
+		B2AB8C8921A0833E008C008F /* scene3_horsepaint_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8421A0833E008C008F /* scene3_horsepaint_v02.json */; };
+		B2AB8C8F21A08A0D008C008F /* scene4_yellowdude_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8A21A08A0C008C008F /* scene4_yellowdude_v02.json */; };
+		B2AB8C9121A08A0D008C008F /* scene4_lineelements_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8C21A08A0C008C008F /* scene4_lineelements_v02.json */; };
+		B2AB8C9221A08A0D008C008F /* scene4_envi_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8D21A08A0C008C008F /* scene4_envi_v02.json */; };
+		B2AB8C9321A08A0D008C008F /* scene4_cylinder_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C8E21A08A0C008C008F /* scene4_cylinder_v02.json */; };
+		B2AB8C9521A08B84008C008F /* scene4_circleman_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C9421A08B84008C008F /* scene4_circleman_v02.json */; };
+		B2AB8C9821A0C680008C008F /* scene5_firstscene_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C9621A0C680008C008F /* scene5_firstscene_v02.json */; };
+		B2AB8C9921A0C680008C008F /* scene5_reaction_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C9721A0C680008C008F /* scene5_reaction_v02.json */; };
+		B2AB8C9B21A0DA1B008C008F /* scene6_puzzle1_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C9A21A0DA1B008C008F /* scene6_puzzle1_v02.json */; };
+		B2AB8C9E21A0DB2E008C008F /* Scene7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8C9D21A0DB2E008C008F /* Scene7.swift */; };
+		B2AB8CA121A0DDC8008C008F /* scene7_heartman_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8C9F21A0DDC8008C008F /* scene7_heartman_v01.json */; };
+		B2AB8CA221A0DDC8008C008F /* scene7_background_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CA021A0DDC8008C008F /* scene7_background_v01.json */; };
+		B2AB8CA521A1DFED008C008F /* Scene8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8CA421A1DFED008C008F /* Scene8.swift */; };
+		B2AB8CA821A1E03A008C008F /* scene8_back_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CA621A1E03A008C008F /* scene8_back_v01.json */; };
+		B2AB8CA921A1E03A008C008F /* scene8_table_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CA721A1E03A008C008F /* scene8_table_v01.json */; };
+		B2AB8CAF21A1F777008C008F /* scene8_action_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CAE21A1F777008C008F /* scene8_action_v01.json */; };
+		B2AB8CB921A20F7C008C008F /* scene8_piece1_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CB621A20F7C008C008F /* scene8_piece1_v01.json */; };
+		B2AB8CBA21A20F7C008C008F /* scene8_piece2_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CB721A20F7C008C008F /* scene8_piece2_v01.json */; };
+		B2AB8CBB21A20F7C008C008F /* scene8_piece3_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CB821A20F7C008C008F /* scene8_piece3_v01.json */; };
+		B2AB8CBD21A4CC63008C008F /* Scene9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8CBC21A4CC63008C008F /* Scene9.swift */; };
+		B2AB8CC121A4CD09008C008F /* scene9_floor_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CBF21A4CD09008C008F /* scene9_floor_v01.json */; };
+		B2AB8CC221A4CD09008C008F /* scene9_tree_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC021A4CD09008C008F /* scene9_tree_v01.json */; };
+		B2AB8CC421A6611D008C008F /* scene9_bug_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC321A6611D008C008F /* scene9_bug_v01.json */; };
+		B2AB8CCA21A8799A008C008F /* scene9_rock4_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC521A87999008C008F /* scene9_rock4_v01.json */; };
+		B2AB8CCB21A8799A008C008F /* scene9_rockfall_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC621A87999008C008F /* scene9_rockfall_v01.json */; };
+		B2AB8CCC21A8799A008C008F /* scene9_rock2_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC721A8799A008C008F /* scene9_rock2_v01.json */; };
+		B2AB8CCD21A8799A008C008F /* scene9_rock3_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC821A8799A008C008F /* scene9_rock3_v01.json */; };
+		B2AB8CCE21A8799A008C008F /* scene9_rock1_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CC921A8799A008C008F /* scene9_rock1_v01.json */; };
+		B2AB8CD021A89614008C008F /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8CCF21A89614008C008F /* SegueFromLeft.swift */; };
+		B2AB8CD221A89697008C008F /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB8CD121A89697008C008F /* SegueFromRight.swift */; };
+		B2AB8CDD21A89C2F008C008F /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CD521A89C2F008C008F /* CenturyGothic.ttf */; };
+		B2AB8CDE21A89C2F008C008F /* GOTHICBI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CD621A89C2F008C008F /* GOTHICBI.TTF */; };
+		B2AB8CDF21A89C2F008C008F /* GOTHICB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CD721A89C2F008C008F /* GOTHICB.TTF */; };
+		B2AB8CE021A89C2F008C008F /* Century Gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CD821A89C2F008C008F /* Century Gothic.ttf */; };
+		B2AB8CE121A89C2F008C008F /* GOTHIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CD921A89C2F008C008F /* GOTHIC.TTF */; };
+		B2AB8CE221A89C2F008C008F /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CDA21A89C2F008C008F /* GOTHICI.TTF */; };
+		B2AB8CE321A89C2F008C008F /* sharefonts.net.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CDB21A89C2F008C008F /* sharefonts.net.txt */; };
+		B2AB8CE421A89C2F008C008F /* GOTHICB0.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CDC21A89C2F008C008F /* GOTHICB0.TTF */; };
+		B2AB8CEA21A8C352008C008F /* scene6_puzzleoutline_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CE921A8C351008C008F /* scene6_puzzleoutline_v02.json */; };
+		B2AB8CEE21A8D1A6008C008F /* scene6_puzzle2_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CED21A8D1A6008C008F /* scene6_puzzle2_v01.json */; };
+		B2AB8CF021A8DAD9008C008F /* scene6_puzzle3_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CEF21A8DAD9008C008F /* scene6_puzzle3_v01.json */; };
+		B2AB8CF221A8DF3C008C008F /* scene6_puzzle4_v01.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CF121A8DF3C008C008F /* scene6_puzzle4_v01.json */; };
+		B2AB8CFB21A9D74A008C008F /* title.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8CFA21A9D74A008C008F /* title.json */; };
+		B2AB8D0221AB6805008C008F /* scene2_smalldudequiet_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8D0021AB6805008C008F /* scene2_smalldudequiet_v02.json */; };
+		B2AB8D0321AB6805008C008F /* scene2_smalldudeawake_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8D0121AB6805008C008F /* scene2_smalldudeawake_v02.json */; };
+		B2AB8D0921AB6A55008C008F /* scene3_buckets_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8D0821AB6A55008C008F /* scene3_buckets_v02.json */; };
+		B2AB8D0C21AB6B98008C008F /* scene2_bigdudeawake_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8D0A21AB6B98008C008F /* scene2_bigdudeawake_v02.json */; };
+		B2AB8D0D21AB6B98008C008F /* scene2_bigdudequiet_v02.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AB8D0B21AB6B98008C008F /* scene2_bigdudequiet_v02.json */; };
+		B2F865F62192AFDD00ADC2E9 /* Scene5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F865F52192AFDD00ADC2E9 /* Scene5.swift */; };
+		B2F865F82192AFF400ADC2E9 /* MyMonsterMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F865F72192AFF400ADC2E9 /* MyMonsterMethod.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3441FBBC2EF6A44D3C5943B6 /* Pods-LottieAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		3C837C115E74C10FA7E9702C /* Pods-LottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		A2E784086427456FA32489E5 /* Pods_LottieAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23B12AD2192252A00C57EE2 /* Scene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene4.swift; sourceTree = "<group>"; };
+		B25C1F06218A74DC00C20DA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B25C1F08218A774500C20DA2 /* Scene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene1.swift; sourceTree = "<group>"; };
+		B25E08A6218CDD3300304576 /* Scene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene2.swift; sourceTree = "<group>"; };
+		B25E08C7218FEFDE00304576 /* Scene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3.swift; sourceTree = "<group>"; };
+		B269959221837AC200B40D13 /* LottieAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B269959521837AC200B40D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B269959721837AC200B40D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B269959A21837AC200B40D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B269959C21837AC300B40D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B269959F21837AC300B40D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26995A121837AC300B40D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AB8C37219929CD008C008F /* Scene6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene6.swift; sourceTree = "<group>"; };
+		B2AB8C50219FCA89008C008F /* scene1_floorlines_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_floorlines_v02.json; path = LottieAnimation/Animation/scene1/scene1_floorlines_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C51219FCA89008C008F /* scene1_character_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_character_v02.json; path = LottieAnimation/Animation/scene1/scene1_character_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C52219FCA89008C008F /* scene1_skylines_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_skylines_v02.json; path = LottieAnimation/Animation/scene1/scene1_skylines_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C53219FCA89008C008F /* scene1_plants_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_plants_v02.json; path = LottieAnimation/Animation/scene1/scene1_plants_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C54219FCA89008C008F /* scene1_expression_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_expression_v02.json; path = LottieAnimation/Animation/scene1/scene1_expression_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C55219FCA89008C008F /* scene1_fire_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_fire_v02.json; path = LottieAnimation/Animation/scene1/scene1_fire_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C56219FCA89008C008F /* scene1_base_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene1_base_v02.json; path = LottieAnimation/Animation/scene1/scene1_base_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C5E219FD264008C008F /* scene2_floorlines_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_floorlines_v02.json; sourceTree = "<group>"; };
+		B2AB8C60219FD264008C008F /* scene2_triangles_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_triangles_v02.json; sourceTree = "<group>"; };
+		B2AB8C64219FD264008C008F /* scene2_floor_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_floor_v02.json; sourceTree = "<group>"; };
+		B2AB8C8121A0833E008C008F /* scene3_bg_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene3_bg_v02.json; path = LottieAnimation/Animation/scene3/scene3_bg_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C8221A0833E008C008F /* scene3_horsebody_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene3_horsebody_v02.json; path = LottieAnimation/Animation/scene3/scene3_horsebody_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C8321A0833E008C008F /* scene3_horsehead_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene3_horsehead_v02.json; path = LottieAnimation/Animation/scene3/scene3_horsehead_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C8421A0833E008C008F /* scene3_horsepaint_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene3_horsepaint_v02.json; path = LottieAnimation/Animation/scene3/scene3_horsepaint_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C8A21A08A0C008C008F /* scene4_yellowdude_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene4_yellowdude_v02.json; sourceTree = "<group>"; };
+		B2AB8C8C21A08A0C008C008F /* scene4_lineelements_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene4_lineelements_v02.json; sourceTree = "<group>"; };
+		B2AB8C8D21A08A0C008C008F /* scene4_envi_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene4_envi_v02.json; sourceTree = "<group>"; };
+		B2AB8C8E21A08A0C008C008F /* scene4_cylinder_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene4_cylinder_v02.json; sourceTree = "<group>"; };
+		B2AB8C9421A08B84008C008F /* scene4_circleman_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene4_circleman_v02.json; sourceTree = "<group>"; };
+		B2AB8C9621A0C680008C008F /* scene5_firstscene_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene5_firstscene_v02.json; path = LottieAnimation/Animation/scene5/scene5_firstscene_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C9721A0C680008C008F /* scene5_reaction_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene5_reaction_v02.json; path = LottieAnimation/Animation/scene5/scene5_reaction_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8C9A21A0DA1B008C008F /* scene6_puzzle1_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene6_puzzle1_v02.json; sourceTree = "<group>"; };
+		B2AB8C9D21A0DB2E008C008F /* Scene7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene7.swift; sourceTree = "<group>"; };
+		B2AB8C9F21A0DDC8008C008F /* scene7_heartman_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene7_heartman_v01.json; sourceTree = "<group>"; };
+		B2AB8CA021A0DDC8008C008F /* scene7_background_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene7_background_v01.json; sourceTree = "<group>"; };
+		B2AB8CA421A1DFED008C008F /* Scene8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene8.swift; sourceTree = "<group>"; };
+		B2AB8CA621A1E03A008C008F /* scene8_back_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene8_back_v01.json; sourceTree = "<group>"; };
+		B2AB8CA721A1E03A008C008F /* scene8_table_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene8_table_v01.json; sourceTree = "<group>"; };
+		B2AB8CAE21A1F777008C008F /* scene8_action_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene8_action_v01.json; sourceTree = "<group>"; };
+		B2AB8CB621A20F7C008C008F /* scene8_piece1_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene8_piece1_v01.json; sourceTree = "<group>"; };
+		B2AB8CB721A20F7C008C008F /* scene8_piece2_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene8_piece2_v01.json; sourceTree = "<group>"; };
+		B2AB8CB821A20F7C008C008F /* scene8_piece3_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene8_piece3_v01.json; sourceTree = "<group>"; };
+		B2AB8CBC21A4CC63008C008F /* Scene9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene9.swift; sourceTree = "<group>"; };
+		B2AB8CBF21A4CD09008C008F /* scene9_floor_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_floor_v01.json; sourceTree = "<group>"; };
+		B2AB8CC021A4CD09008C008F /* scene9_tree_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_tree_v01.json; sourceTree = "<group>"; };
+		B2AB8CC321A6611D008C008F /* scene9_bug_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_bug_v01.json; sourceTree = "<group>"; };
+		B2AB8CC521A87999008C008F /* scene9_rock4_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_rock4_v01.json; sourceTree = "<group>"; };
+		B2AB8CC621A87999008C008F /* scene9_rockfall_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_rockfall_v01.json; sourceTree = "<group>"; };
+		B2AB8CC721A8799A008C008F /* scene9_rock2_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_rock2_v01.json; sourceTree = "<group>"; };
+		B2AB8CC821A8799A008C008F /* scene9_rock3_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_rock3_v01.json; sourceTree = "<group>"; };
+		B2AB8CC921A8799A008C008F /* scene9_rock1_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene9_rock1_v01.json; sourceTree = "<group>"; };
+		B2AB8CCF21A89614008C008F /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		B2AB8CD121A89697008C008F /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		B2AB8CD521A89C2F008C008F /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CenturyGothic.ttf; sourceTree = "<group>"; };
+		B2AB8CD621A89C2F008C008F /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
+		B2AB8CD721A89C2F008C008F /* GOTHICB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB.TTF; sourceTree = "<group>"; };
+		B2AB8CD821A89C2F008C008F /* Century Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic.ttf"; sourceTree = "<group>"; };
+		B2AB8CD921A89C2F008C008F /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
+		B2AB8CDA21A89C2F008C008F /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
+		B2AB8CDB21A89C2F008C008F /* sharefonts.net.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sharefonts.net.txt; sourceTree = "<group>"; };
+		B2AB8CDC21A89C2F008C008F /* GOTHICB0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB0.TTF; sourceTree = "<group>"; };
+		B2AB8CE921A8C351008C008F /* scene6_puzzleoutline_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene6_puzzleoutline_v02.json; sourceTree = "<group>"; };
+		B2AB8CED21A8D1A6008C008F /* scene6_puzzle2_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene6_puzzle2_v01.json; sourceTree = "<group>"; };
+		B2AB8CEF21A8DAD9008C008F /* scene6_puzzle3_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene6_puzzle3_v01.json; sourceTree = "<group>"; };
+		B2AB8CF121A8DF3C008C008F /* scene6_puzzle4_v01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene6_puzzle4_v01.json; sourceTree = "<group>"; };
+		B2AB8CFA21A9D74A008C008F /* title.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = title.json; sourceTree = "<group>"; };
+		B2AB8D0021AB6805008C008F /* scene2_smalldudequiet_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_smalldudequiet_v02.json; sourceTree = "<group>"; };
+		B2AB8D0121AB6805008C008F /* scene2_smalldudeawake_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_smalldudeawake_v02.json; sourceTree = "<group>"; };
+		B2AB8D0821AB6A55008C008F /* scene3_buckets_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scene3_buckets_v02.json; path = LottieAnimation/Animation/scene3/scene3_buckets_v02.json; sourceTree = SOURCE_ROOT; };
+		B2AB8D0A21AB6B98008C008F /* scene2_bigdudeawake_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_bigdudeawake_v02.json; sourceTree = "<group>"; };
+		B2AB8D0B21AB6B98008C008F /* scene2_bigdudequiet_v02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene2_bigdudequiet_v02.json; sourceTree = "<group>"; };
+		B2F865F52192AFDD00ADC2E9 /* Scene5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene5.swift; sourceTree = "<group>"; };
+		B2F865F72192AFF400ADC2E9 /* MyMonsterMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonsterMethod.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B269958F21837AC200B40D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41567616818D65A64DDC5F2 /* Pods_LottieAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F16CE1B5BE219DECECDB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2E784086427456FA32489E5 /* Pods_LottieAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23B12AA219224B000C57EE2 /* scene4 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8C9421A08B84008C008F /* scene4_circleman_v02.json */,
+				B2AB8C8E21A08A0C008C008F /* scene4_cylinder_v02.json */,
+				B2AB8C8D21A08A0C008C008F /* scene4_envi_v02.json */,
+				B2AB8C8C21A08A0C008C008F /* scene4_lineelements_v02.json */,
+				B2AB8C8A21A08A0C008C008F /* scene4_yellowdude_v02.json */,
+			);
+			path = scene4;
+			sourceTree = "<group>";
+		};
+		B25C1F0A218A786E00C20DA2 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B269959721837AC200B40D13 /* ViewController.swift */,
+				B25C1F06218A74DC00C20DA2 /* SecondViewController.swift */,
+				B2F865F72192AFF400ADC2E9 /* MyMonsterMethod.swift */,
+				B25C1F08218A774500C20DA2 /* Scene1.swift */,
+				B25E08A6218CDD3300304576 /* Scene2.swift */,
+				B25E08C7218FEFDE00304576 /* Scene3.swift */,
+				B23B12AD2192252A00C57EE2 /* Scene4.swift */,
+				B2F865F52192AFDD00ADC2E9 /* Scene5.swift */,
+				B2AB8C37219929CD008C008F /* Scene6.swift */,
+				B2AB8C9D21A0DB2E008C008F /* Scene7.swift */,
+				B2AB8CA421A1DFED008C008F /* Scene8.swift */,
+				B2AB8CBC21A4CC63008C008F /* Scene9.swift */,
+				B2AB8CCF21A89614008C008F /* SegueFromLeft.swift */,
+				B2AB8CD121A89697008C008F /* SegueFromRight.swift */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		B25E0893218A88C000304576 /* scene1 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8C56219FCA89008C008F /* scene1_base_v02.json */,
+				B2AB8C51219FCA89008C008F /* scene1_character_v02.json */,
+				B2AB8C54219FCA89008C008F /* scene1_expression_v02.json */,
+				B2AB8C55219FCA89008C008F /* scene1_fire_v02.json */,
+				B2AB8C50219FCA89008C008F /* scene1_floorlines_v02.json */,
+				B2AB8C53219FCA89008C008F /* scene1_plants_v02.json */,
+				B2AB8C52219FCA89008C008F /* scene1_skylines_v02.json */,
+			);
+			name = scene1;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B25E08A5218CDD1200304576 /* scene2 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8D0A21AB6B98008C008F /* scene2_bigdudeawake_v02.json */,
+				B2AB8D0B21AB6B98008C008F /* scene2_bigdudequiet_v02.json */,
+				B2AB8D0121AB6805008C008F /* scene2_smalldudeawake_v02.json */,
+				B2AB8D0021AB6805008C008F /* scene2_smalldudequiet_v02.json */,
+				B2AB8C64219FD264008C008F /* scene2_floor_v02.json */,
+				B2AB8C5E219FD264008C008F /* scene2_floorlines_v02.json */,
+				B2AB8C60219FD264008C008F /* scene2_triangles_v02.json */,
+			);
+			path = scene2;
+			sourceTree = "<group>";
+		};
+		B25E08C4218FEF3100304576 /* scene3 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8D0821AB6A55008C008F /* scene3_buckets_v02.json */,
+				B2AB8C8121A0833E008C008F /* scene3_bg_v02.json */,
+				B2AB8C8221A0833E008C008F /* scene3_horsebody_v02.json */,
+				B2AB8C8321A0833E008C008F /* scene3_horsehead_v02.json */,
+				B2AB8C8421A0833E008C008F /* scene3_horsepaint_v02.json */,
+			);
+			name = scene3;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B269958921837AC200B40D13 = {
+			isa = PBXGroup;
+			children = (
+				B269959421837AC200B40D13 /* LottieAnimation */,
+				B269959321837AC200B40D13 /* Products */,
+				D6F4A9C9A94BFBEF94620192 /* Pods */,
+				42F16CE1B5BE219DECECDB1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B269959321837AC200B40D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B269959221837AC200B40D13 /* LottieAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B269959421837AC200B40D13 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CF321A9C486008C008F /* Logo */,
+				B2AB8CD321A89AFF008C008F /* Fonts */,
+				B25C1F0A218A786E00C20DA2 /* Scripts */,
+				B26995A92183AD8400B40D13 /* Animation */,
+				B269959521837AC200B40D13 /* AppDelegate.swift */,
+				B269959921837AC200B40D13 /* Main.storyboard */,
+				B269959C21837AC300B40D13 /* Assets.xcassets */,
+				B269959E21837AC300B40D13 /* LaunchScreen.storyboard */,
+				B26995A121837AC300B40D13 /* Info.plist */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		B26995A92183AD8400B40D13 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CFA21A9D74A008C008F /* title.json */,
+				B2AB8CBE21A4CC78008C008F /* scene9 */,
+				B2AB8CA321A1DFD5008C008F /* scene8 */,
+				B2AB8C9C21A0DA7A008C008F /* scene7 */,
+				B2AB8C39219929E5008C008F /* scene6 */,
+				B2AB8C302198C74E008C008F /* scene5 */,
+				B23B12AA219224B000C57EE2 /* scene4 */,
+				B25E08C4218FEF3100304576 /* scene3 */,
+				B25E08A5218CDD1200304576 /* scene2 */,
+				B25E0893218A88C000304576 /* scene1 */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		B2AB8C302198C74E008C008F /* scene5 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8C9621A0C680008C008F /* scene5_firstscene_v02.json */,
+				B2AB8C9721A0C680008C008F /* scene5_reaction_v02.json */,
+			);
+			name = scene5;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B2AB8C39219929E5008C008F /* scene6 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CF121A8DF3C008C008F /* scene6_puzzle4_v01.json */,
+				B2AB8CEF21A8DAD9008C008F /* scene6_puzzle3_v01.json */,
+				B2AB8CED21A8D1A6008C008F /* scene6_puzzle2_v01.json */,
+				B2AB8CE921A8C351008C008F /* scene6_puzzleoutline_v02.json */,
+				B2AB8C9A21A0DA1B008C008F /* scene6_puzzle1_v02.json */,
+			);
+			path = scene6;
+			sourceTree = "<group>";
+		};
+		B2AB8C9C21A0DA7A008C008F /* scene7 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CA021A0DDC8008C008F /* scene7_background_v01.json */,
+				B2AB8C9F21A0DDC8008C008F /* scene7_heartman_v01.json */,
+			);
+			path = scene7;
+			sourceTree = "<group>";
+		};
+		B2AB8CA321A1DFD5008C008F /* scene8 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CB621A20F7C008C008F /* scene8_piece1_v01.json */,
+				B2AB8CB721A20F7C008C008F /* scene8_piece2_v01.json */,
+				B2AB8CB821A20F7C008C008F /* scene8_piece3_v01.json */,
+				B2AB8CAE21A1F777008C008F /* scene8_action_v01.json */,
+				B2AB8CA621A1E03A008C008F /* scene8_back_v01.json */,
+				B2AB8CA721A1E03A008C008F /* scene8_table_v01.json */,
+			);
+			path = scene8;
+			sourceTree = "<group>";
+		};
+		B2AB8CBE21A4CC78008C008F /* scene9 */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CC921A8799A008C008F /* scene9_rock1_v01.json */,
+				B2AB8CC721A8799A008C008F /* scene9_rock2_v01.json */,
+				B2AB8CC821A8799A008C008F /* scene9_rock3_v01.json */,
+				B2AB8CC521A87999008C008F /* scene9_rock4_v01.json */,
+				B2AB8CC621A87999008C008F /* scene9_rockfall_v01.json */,
+				B2AB8CC321A6611D008C008F /* scene9_bug_v01.json */,
+				B2AB8CBF21A4CD09008C008F /* scene9_floor_v01.json */,
+				B2AB8CC021A4CD09008C008F /* scene9_tree_v01.json */,
+			);
+			path = scene9;
+			sourceTree = "<group>";
+		};
+		B2AB8CD321A89AFF008C008F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CD421A89C2F008C008F /* century-gothic */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B2AB8CD421A89C2F008C008F /* century-gothic */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB8CD521A89C2F008C008F /* CenturyGothic.ttf */,
+				B2AB8CD621A89C2F008C008F /* GOTHICBI.TTF */,
+				B2AB8CD721A89C2F008C008F /* GOTHICB.TTF */,
+				B2AB8CD821A89C2F008C008F /* Century Gothic.ttf */,
+				B2AB8CD921A89C2F008C008F /* GOTHIC.TTF */,
+				B2AB8CDA21A89C2F008C008F /* GOTHICI.TTF */,
+				B2AB8CDB21A89C2F008C008F /* sharefonts.net.txt */,
+				B2AB8CDC21A89C2F008C008F /* GOTHICB0.TTF */,
+			);
+			path = "century-gothic";
+			sourceTree = "<group>";
+		};
+		B2AB8CF321A9C486008C008F /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		D6F4A9C9A94BFBEF94620192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3441FBBC2EF6A44D3C5943B6 /* Pods-LottieAnimation.debug.xcconfig */,
+				3C837C115E74C10FA7E9702C /* Pods-LottieAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B269959121837AC200B40D13 /* LottieAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26995A421837AC300B40D13 /* Build configuration list for PBXNativeTarget "LottieAnimation" */;
+			buildPhases = (
+				B2B29A9490048C034C6A7966 /* [CP] Check Pods Manifest.lock */,
+				B269958E21837AC200B40D13 /* Sources */,
+				B269958F21837AC200B40D13 /* Frameworks */,
+				B269959021837AC200B40D13 /* Resources */,
+				27E2A046290171EC4355C99B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieAnimation;
+			productName = LottieAnimation;
+			productReference = B269959221837AC200B40D13 /* LottieAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B269958A21837AC200B40D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ChaoTheChild;
+				TargetAttributes = {
+					B269959121837AC200B40D13 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = B269958D21837AC200B40D13 /* Build configuration list for PBXProject "LottieAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B269958921837AC200B40D13;
+			productRefGroup = B269959321837AC200B40D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B269959121837AC200B40D13 /* LottieAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B269959021837AC200B40D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AB8CE121A89C2F008C008F /* GOTHIC.TTF in Resources */,
+				B2AB8D0C21AB6B98008C008F /* scene2_bigdudeawake_v02.json in Resources */,
+				B2AB8CEA21A8C352008C008F /* scene6_puzzleoutline_v02.json in Resources */,
+				B2AB8C8721A0833E008C008F /* scene3_horsebody_v02.json in Resources */,
+				B2AB8CE221A89C2F008C008F /* GOTHICI.TTF in Resources */,
+				B2AB8CF221A8DF3C008C008F /* scene6_puzzle4_v01.json in Resources */,
+				B2AB8D0921AB6A55008C008F /* scene3_buckets_v02.json in Resources */,
+				B2AB8CCD21A8799A008C008F /* scene9_rock3_v01.json in Resources */,
+				B2AB8CBB21A20F7C008C008F /* scene8_piece3_v01.json in Resources */,
+				B2AB8C9B21A0DA1B008C008F /* scene6_puzzle1_v02.json in Resources */,
+				B2AB8CE321A89C2F008C008F /* sharefonts.net.txt in Resources */,
+				B2AB8C8821A0833E008C008F /* scene3_horsehead_v02.json in Resources */,
+				B2AB8C8921A0833E008C008F /* scene3_horsepaint_v02.json in Resources */,
+				B26995A021837AC300B40D13 /* LaunchScreen.storyboard in Resources */,
+				B2AB8C9221A08A0D008C008F /* scene4_envi_v02.json in Resources */,
+				B2AB8CEE21A8D1A6008C008F /* scene6_puzzle2_v01.json in Resources */,
+				B2AB8C5D219FCA89008C008F /* scene1_base_v02.json in Resources */,
+				B2AB8C57219FCA89008C008F /* scene1_floorlines_v02.json in Resources */,
+				B2AB8CCC21A8799A008C008F /* scene9_rock2_v01.json in Resources */,
+				B269959D21837AC300B40D13 /* Assets.xcassets in Resources */,
+				B2AB8C9321A08A0D008C008F /* scene4_cylinder_v02.json in Resources */,
+				B2AB8CA221A0DDC8008C008F /* scene7_background_v01.json in Resources */,
+				B2AB8CDE21A89C2F008C008F /* GOTHICBI.TTF in Resources */,
+				B2AB8D0D21AB6B98008C008F /* scene2_bigdudequiet_v02.json in Resources */,
+				B2AB8CA121A0DDC8008C008F /* scene7_heartman_v01.json in Resources */,
+				B2AB8CE021A89C2F008C008F /* Century Gothic.ttf in Resources */,
+				B2AB8C6B219FD264008C008F /* scene2_floor_v02.json in Resources */,
+				B2AB8C5B219FCA89008C008F /* scene1_expression_v02.json in Resources */,
+				B2AB8C59219FCA89008C008F /* scene1_skylines_v02.json in Resources */,
+				B2AB8CFB21A9D74A008C008F /* title.json in Resources */,
+				B2AB8CF021A8DAD9008C008F /* scene6_puzzle3_v01.json in Resources */,
+				B2AB8C67219FD264008C008F /* scene2_triangles_v02.json in Resources */,
+				B2AB8C5A219FCA89008C008F /* scene1_plants_v02.json in Resources */,
+				B2AB8CC121A4CD09008C008F /* scene9_floor_v01.json in Resources */,
+				B2AB8CC221A4CD09008C008F /* scene9_tree_v01.json in Resources */,
+				B2AB8C8621A0833E008C008F /* scene3_bg_v02.json in Resources */,
+				B2AB8CCE21A8799A008C008F /* scene9_rock1_v01.json in Resources */,
+				B2AB8CA821A1E03A008C008F /* scene8_back_v01.json in Resources */,
+				B2AB8D0321AB6805008C008F /* scene2_smalldudeawake_v02.json in Resources */,
+				B269959B21837AC200B40D13 /* Main.storyboard in Resources */,
+				B2AB8C5C219FCA89008C008F /* scene1_fire_v02.json in Resources */,
+				B2AB8CAF21A1F777008C008F /* scene8_action_v01.json in Resources */,
+				B2AB8CDF21A89C2F008C008F /* GOTHICB.TTF in Resources */,
+				B2AB8C9821A0C680008C008F /* scene5_firstscene_v02.json in Resources */,
+				B2AB8C9521A08B84008C008F /* scene4_circleman_v02.json in Resources */,
+				B2AB8CE421A89C2F008C008F /* GOTHICB0.TTF in Resources */,
+				B2AB8C65219FD264008C008F /* scene2_floorlines_v02.json in Resources */,
+				B2AB8CCB21A8799A008C008F /* scene9_rockfall_v01.json in Resources */,
+				B2AB8CA921A1E03A008C008F /* scene8_table_v01.json in Resources */,
+				B2AB8CDD21A89C2F008C008F /* CenturyGothic.ttf in Resources */,
+				B2AB8C58219FCA89008C008F /* scene1_character_v02.json in Resources */,
+				B2AB8C8F21A08A0D008C008F /* scene4_yellowdude_v02.json in Resources */,
+				B2AB8CCA21A8799A008C008F /* scene9_rock4_v01.json in Resources */,
+				B2AB8CB921A20F7C008C008F /* scene8_piece1_v01.json in Resources */,
+				B2AB8C9121A08A0D008C008F /* scene4_lineelements_v02.json in Resources */,
+				B2AB8C9921A0C680008C008F /* scene5_reaction_v02.json in Resources */,
+				B2AB8CBA21A20F7C008C008F /* scene8_piece2_v01.json in Resources */,
+				B2AB8CC421A6611D008C008F /* scene9_bug_v01.json in Resources */,
+				B2AB8D0221AB6805008C008F /* scene2_smalldudequiet_v02.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27E2A046290171EC4355C99B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieAnimation/Pods-LottieAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B29A9490048C034C6A7966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B269958E21837AC200B40D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23B12AE2192252A00C57EE2 /* Scene4.swift in Sources */,
+				B25C1F07218A74DC00C20DA2 /* SecondViewController.swift in Sources */,
+				B2AB8CD021A89614008C008F /* SegueFromLeft.swift in Sources */,
+				B2F865F62192AFDD00ADC2E9 /* Scene5.swift in Sources */,
+				B269959821837AC200B40D13 /* ViewController.swift in Sources */,
+				B2F865F82192AFF400ADC2E9 /* MyMonsterMethod.swift in Sources */,
+				B2AB8CA521A1DFED008C008F /* Scene8.swift in Sources */,
+				B25E08C8218FEFDE00304576 /* Scene3.swift in Sources */,
+				B2AB8CBD21A4CC63008C008F /* Scene9.swift in Sources */,
+				B2AB8C9E21A0DB2E008C008F /* Scene7.swift in Sources */,
+				B25E08A7218CDD3300304576 /* Scene2.swift in Sources */,
+				B2AB8CD221A89697008C008F /* SegueFromRight.swift in Sources */,
+				B2AB8C38219929CD008C008F /* Scene6.swift in Sources */,
+				B25C1F09218A774500C20DA2 /* Scene1.swift in Sources */,
+				B269959621837AC200B40D13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B269959921837AC200B40D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B269959A21837AC200B40D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B269959E21837AC300B40D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B269959F21837AC300B40D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26995A221837AC300B40D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26995A321837AC300B40D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26995A521837AC300B40D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3441FBBC2EF6A44D3C5943B6 /* Pods-LottieAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CD46RZC3;
+				INFOPLIST_FILE = LottieAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chuggs.LottieAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B26995A621837AC300B40D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C837C115E74C10FA7E9702C /* Pods-LottieAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84CD46RZC3;
+				INFOPLIST_FILE = LottieAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chuggs.LottieAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B269958D21837AC200B40D13 /* Build configuration list for PBXProject "LottieAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26995A221837AC300B40D13 /* Debug */,
+				B26995A321837AC300B40D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26995A421837AC300B40D13 /* Build configuration list for PBXNativeTarget "LottieAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26995A521837AC300B40D13 /* Debug */,
+				B26995A621837AC300B40D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B269958A21837AC200B40D13 /* Project object */;
+}
